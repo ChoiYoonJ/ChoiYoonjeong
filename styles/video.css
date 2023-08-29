@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'NetflixSans';
+    src:url('../font/NetflixSans-Bold.otf') format('opentype');
+}
+.main{
+    background-size: cover;
+    top:0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.video-grid {
+    display: grid;   
+}
+
+.preview-detail {
+    width: 660px;
+    height: 300px;
+    z-index: 10;
+    top: 250px;
+    left : 40px;
+    font-size: 20px;
+    position:absolute;
+}
+
+.preview-title {
+    width: 100%;
+    height: 50%;
+    
+}
+
+#play{
+    margin-top : 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#play:hover{
+    align-self: center;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#detail-inf {
+    margin-top : 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #999;
+    opacity: 90%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#detail-inf:hover {
+    margin-top : 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #999;
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.video-preview .background {
+    width: 100%;
+    height: 600px;
+    z-index: 10;
+}
+
+.video-thumbnail {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.thumbnail-num{
+    color: black;
+    width: 40px;
+    height: 200px;
+    background-color: transparent;
+    top:580px;
+    left: 0px;
+    font-size: 200px;
+    z-index: 99;
+    text-align: right;
+    padding: 0px;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'NetflixSans';
+}
+
+.thumbnail-content{
+    width: 150px;
+    height: 200px;
+    background-color: brown;
+    z-index: 4;
+    top:604px;
+    left: 80px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail-title {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.contents-title {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.contents-thumbnail {
+    margin-left: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.thumbnail-content:hover {
+    transform:scale(1.4);
+}
